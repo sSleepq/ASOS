@@ -12,3 +12,8 @@ Administration of network operating systems
 
 ## Са - 307
 <a href="https://drive.google.com/drive/folders/1TfADCSpkCilYAR0QRNS1TF8KxZ5QDCcl?usp=sharing">Са-307 гугл диск для лаб<a/>
+
+
+## ЛАБЫ
+
+<a href="LAB">*клик*<a/>
