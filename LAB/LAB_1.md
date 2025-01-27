@@ -10,7 +10,7 @@
 
 ### Порядок работы:
 #### 1)	Настроить сетевые интерфейсы на виртуальных машинах
-<img src="sSleepq/ASOS/src/img/1.png"></img>
+<img src="src/img/1.png"></img>
 #### a.	Первая машина Ubuntu server
 `i.	Первый порт Bridge`
 
