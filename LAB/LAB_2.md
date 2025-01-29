@@ -47,8 +47,7 @@ sudo nano /etc/vsftpd.conf
 . . .
 # Allow anonymous FTP? (Disabled by default).
 anonymous_enable=YES
-#
-We’ll set the local_enable setting to “NO” because we’re not going to allow users with local accounts to upload files via FTP. The comment in the configuration file can be a little confusing, too, because the line is uncommented by default.
+# We’ll set the local_enable setting to “NO” because we’re not going to allow users with local accounts to upload files via FTP. The comment in the configuration file can be a little confusing, too, because the line is uncommented by default.
 # Uncomment this to allow local users to log in.
 local_enable=NO
 . . .
