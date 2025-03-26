@@ -19,7 +19,8 @@
 
 `ДЛЯ ОСОБО ЛЕНИВЫХ :)`  
 
-1. Добавим репозиторирй
+1. Добавим репозиторий  
+`Команды выполнять построчно`
 ```sh
 sudo apt-get update
 sudo apt-get install ca-certificates curl
