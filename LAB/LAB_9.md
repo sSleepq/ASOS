@@ -14,4 +14,4 @@
 ### 2. Первая работа с Docker 
 
 Чтобы начать работу с Docker нужно подготовить почву для разработки. Для этого зайдем на офицальный сайт с документацией докер и скачаем его:  
-<a href="https://docs.docker.com/"><img src="LAB\src\img\lb9\1.png"></a>
+<a href="https://docs.docker.com/"><img src="src\img\lb9\1.png"></a>
