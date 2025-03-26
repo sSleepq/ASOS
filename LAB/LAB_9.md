@@ -15,3 +15,41 @@
 
 Чтобы начать работу с Docker нужно подготовить почву для разработки. Для этого зайдем на офицальный сайт с документацией докер и скачаем его:  
 <a href="https://docs.docker.com/"><img src="src\img\lb9\1.png"></a>
+
+`ДЛЯ ОСОБО ЛЕНИВЫХ :)`  
+
+1. Добавим репозиторирй
+```sh
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+```
+
+```sh
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
+```sh
+sudo apt-get update
+```
+2. Установка Docker пакетов
+```sh
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+3. Проверим работоспособность Docker
+```sh
+sudo docker run hello-world
+```
+
+### Задание для выполнения
+
+1) Скачать образ контейнера Nginx
+2) Найти и скачать (либо написать самому) две hmtl страницы
+3) Написать Dockerfile'ы которые при развертывании будут заменять стандартный файл index.html на ваш
+4) Пробросить порты с контейнеров на основную машину, для доступа к сервисам Nginx
+5) Продемонстрировать работу веб страниц
+
+Схема работы
+
+<img src="src\img\lb9\task.png">
