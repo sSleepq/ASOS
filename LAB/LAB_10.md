@@ -239,3 +239,10 @@ docker run -d -p 8080:8080 --net cluster --name adminer adminer
 docker run -it --net cluster nicolaka/netshoot
 ```
 
+```sh
+nmap db1
+```
+
+```sh
+nmap adminer
+```
