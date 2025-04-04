@@ -26,7 +26,7 @@ chmod a+x /usr/local/bin/docker-compose
 ### Подготовка проекта
 
 скачать проект <a href="https://github.com/iu5git/DevOps"> DevOps </a> на локальную машину: Code ->Download Zip  
-<img src="LAB\src\img\lb12\download.png" width=800px>  
+<img src="src\img\lb12\download.png" width=800px>  
 Разархивировать проект и зайти в папку с проектом:
 
 ```sh
@@ -35,7 +35,7 @@ cd DevOps-master/Лабы/Лаб3
 
 Структура директории
 
-<img src="LAB\src\img\lb12\path.png" width=250px>  
+<img src="src\img\lb12\path.png" width=250px>  
 
 ### Задачи лабораторной работы
 
@@ -66,7 +66,7 @@ services:
 docker compose up
 ```
 
-<img src="LAB\src\img\lb12\test-compose.png" width=800px>
+<img src="src\img\lb12\test-compose.png" width=800px>
 
 > ### Задача: Заменить надпись на свое имя, запустить контейнер
 > ### Для замены надписи необходимо открыть файл docker-compose.yml в папке test-compose в редакторе nano
